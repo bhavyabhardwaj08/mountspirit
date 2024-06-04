@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster&family=Marcellus&family=Roboto+Slab:wght@300&display=swap');
+/* font-family: 'EB Garamond', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Marcellus', serif;
+font-family: 'Roboto Slab', serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 10vh;
+    width: 99vw;
+    border: 0px solid black;
+    display: flex;
+    
+}
+.bub{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 58vw;
+    height: 8vh;
+    width: 14vw;
+    border: 0px solid black;
+    font-size: 45px;
+    font-weight: bolder;
+    color:#034694;
+}
+.word{
+    margin-top: 1vh;
+    height: 7vh;
+    width: 6vw;
+    border: 0px solid black;
+    font-size: 25px;
+    font-weight: bolder;
+    color:black; 
+    padding-top: 11px;
+    text-decoration: none;
+}
+.sign{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    height: 7vh;
+    width: 10vw;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 23px;
+    font-weight: bolder;
+    border-radius: 12px;
+    background-color: #00356B;
+    color:#dbedff;
+}
+.box1{
+    height: 73vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 53px;
+    margin-left: 29px;
+}
+.side1{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    height: 69vh;
+    width: 48vw;
+}
+.side2{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height: 69vh;
+    width: 42vw;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.side2:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.deal{
+    height: 20vh;
+    width: 40vw;
+    margin-left: 13px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.free{
+    margin-top: 27px;
+    height: 10vh;
+    width: 40vw;
+    margin-left: 13px;
+    font-size: 28px;
+    font-family: 'Marcellus', serif;
+    color: #012142;
+}
+.start{
+    height: 7vh;
+    width: 14vw;
+    margin-left: 9px;
+    padding-left: 34px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: justify;
+    font-size: 22px;
+    background-color: #00356B;
+    color:#dbedff;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.hi{
+    display: inline-flex;
+}
+.mail{
+    height: 7vh;
+    width: 26vw;
+    margin-left: 15px;
+    padding-left: 23px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: #00356B;
+    color: #dbedff; 
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.google{
+    height: 7vh;
+    width: 27vw;
+    margin-left: 15px;
+    margin-top: 39px;
+    padding-left: 23px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: #00356B;
+    color:#dbedff;  
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.or{
+    font-size: 23px;
+    margin-left: 318px;
+    margin-top: 28px;
+}
+.part1{
+    margin-top: 67px;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+}
+.pic{
+    margin-top: 3vh;
+    height:58vh ;
+    width: 38vw;
+    margin-left: 5vw;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pic:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+    margin-top: 16vh;
+    height: 58vh;
+    width: 45vw;
+    margin-left: 4vw;
+}
+.ek{
+   font-size: 57px;
+   font-weight: bold;
+   margin-bottom: 3vh;
+   color:#00356B;
+}
+.do{
+    font-size: 27px;
+    font-family: 'Roboto Slab', serif;
+}
+.line{
+    margin-top: 5vh;
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 32vw;
+    color:#00356B;
+}
+.startedd{
+height: 6vh;
+width: 25vw;
+border: 1px solid black;
+border-radius: 10px ;
+margin-left: 38vw;
+margin-top: 4vh;
+font-size:  21px;
+background-color: #00356B;
+color:#dbedff;
+}
+/* review */
+.review{
+    margin-top: 19vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left: 4vw;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .person {
+    color: rgb(49, 48, 48);
+    margin-top: 1vh;
+    font-size: 22px;
+  }
+  .para{
+    margin-top: 1vh;
+    padding: 1vw;
+    font-family: 'Marcellus', serif;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /* footer */
+
+  footer {
+    height: 15vh;
+    padding-top: 3vh;
+    text-align: center;
+    margin-top: 9vh;
+    background-color: #00356B;
+    color:#dbedff;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+  }
